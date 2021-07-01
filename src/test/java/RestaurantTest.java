@@ -76,7 +76,7 @@ class RestaurantTest {
     public void removing_item_that_does_not_exist_should_throw_exception() {
         restaurantCreation();
         assertThrows(itemNotFoundException.class,
-                ()->restaurant.removeFromMenu("Chicken Afghani"));
+                ()->restaurant.removeFromMenu("French fries"));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
