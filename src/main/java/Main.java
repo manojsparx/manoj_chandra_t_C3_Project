@@ -1,5 +1,3 @@
-package com.RestaurantFinder;
-
 import java.time.LocalTime;
 
 public class Main {
